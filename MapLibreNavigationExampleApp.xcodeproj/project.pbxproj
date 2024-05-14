@@ -14,6 +14,7 @@
 		45D6B1332BF429C10052D400 /* MapLibreNavigationExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D6B1322BF429C10052D400 /* MapLibreNavigationExampleAppTests.swift */; };
 		45D6B13D2BF429C10052D400 /* MapLibreNavigationExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D6B13C2BF429C10052D400 /* MapLibreNavigationExampleAppUITests.swift */; };
 		45D6B13F2BF429C10052D400 /* MapLibreNavigationExampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D6B13E2BF429C10052D400 /* MapLibreNavigationExampleAppUITestsLaunchTests.swift */; };
+		45D6B14D2BF429F20052D400 /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 45D6B14C2BF429F20052D400 /* MapboxNavigation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D6B14D2BF429F20052D400 /* MapboxNavigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = MapLibreNavigationExampleApp;
+			packageProductDependencies = (
+				45D6B14C2BF429F20052D400 /* MapboxNavigation */,
+			);
 			productName = MapLibreNavigationExampleApp;
 			productReference = 45D6B11E2BF429BF0052D400 /* MapLibreNavigationExampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 45D6B1152BF429BF0052D400;
+			packageReferences = (
+				45D6B14B2BF429F20052D400 /* XCRemoteSwiftPackageReference "maplibre-navigation-ios" */,
+			);
 			productRefGroup = 45D6B11F2BF429BF0052D400 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -582,6 +590,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45D6B14B2BF429F20052D400 /* XCRemoteSwiftPackageReference "maplibre-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maplibre/maplibre-navigation-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45D6B14C2BF429F20052D400 /* MapboxNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45D6B14B2BF429F20052D400 /* XCRemoteSwiftPackageReference "maplibre-navigation-ios" */;
+			productName = MapboxNavigation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 45D6B1162BF429BF0052D400 /* Project object */;
 }
