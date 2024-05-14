@@ -21,17 +21,54 @@ struct ContentView: View {
 
   var body: some View {
     VStack {
-      Image(systemName: "globe")
-        .imageScale(.large)
-        .foregroundStyle(.tint)
-      Text("Hello, world!")
-    }
-    .padding()
-    .sheet(item: $route) { item in
-      MENavigationViewController(route: item.value)
+      if let route = route {
+        MENavigationViewController(route: route.value)
+      } else {
+        MENavigationMapView()
+      }
     }.onAppear() {
-      // route = getRoute()
+      DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+        getRoute() { route in
+          self.route = IdentifiableValue(id: 1, value: route)
+        }
+      }
     }
+  }
+}
+
+func getRoute(completion: @escaping (Route) -> Void) {
+  let waypoints = [
+    // FixtureData.places[.zeitgeist].location.asCLLocation,
+    CLLocation(latitude: 47.599091, longitude: -122.331856),
+    // FixtureData.places[.realfine].location.asCLLocation,
+    CLLocation(latitude: 47.563412, longitude: -122.378248)
+  ].map { Waypoint(location: $0) }
+
+  let options = NavigationRouteOptions(
+    waypoints: waypoints, profileIdentifier: .automobileAvoidingTraffic)
+  options.shapeFormat = .polyline6
+  options.distanceMeasurementSystem = .metric
+  options.attributeOptions = []
+
+  Directions.shared.calculate(options) { (waypoints, routes, error) in
+    guard let route = routes?.first else {
+      assertionFailure("no route. error: \(String(describing: error))")
+      return
+    }
+    completion(route)
+  }
+}
+
+struct MENavigationMapView: UIViewRepresentable {
+  typealias UIViewType = NavigationMapView
+
+  func makeUIView(context: Context) -> MapboxNavigation.NavigationMapView {
+    let mapView = NavigationMapView(frame: .zero)
+    return mapView
+  }
+  
+  func updateUIView(_ uiView: MapboxNavigation.NavigationMapView, context: Context) {
+    print("in updateUIView")
   }
 }
 

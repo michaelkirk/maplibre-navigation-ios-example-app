@@ -7,7 +7,12 @@
 		<key>MapLibreNavigationExampleApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<key>MapLibreNavigationExampleUIKitApp.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>MapLibreTest (Playground) 1.xcscheme</key>
 		<dict>

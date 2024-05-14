@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45D1C94B2BF45DB300462459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D1C94A2BF45DB300462459 /* AppDelegate.swift */; };
+		45D1C94D2BF45DB300462459 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D1C94C2BF45DB300462459 /* SceneDelegate.swift */; };
+		45D1C94F2BF45DB300462459 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D1C94E2BF45DB300462459 /* ViewController.swift */; };
+		45D1C9522BF45DB300462459 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 45D1C9512BF45DB300462459 /* Base */; };
+		45D1C9542BF45DB500462459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D1C9532BF45DB500462459 /* Assets.xcassets */; };
+		45D1C9572BF45DB500462459 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 45D1C9562BF45DB500462459 /* Base */; };
+		45D1C9622BF45DB500462459 /* MapLibreNavigationExampleUIKitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D1C9612BF45DB500462459 /* MapLibreNavigationExampleUIKitAppTests.swift */; };
+		45D1C96C2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D1C96B2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITests.swift */; };
+		45D1C96E2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D1C96D2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITestsLaunchTests.swift */; };
+		45D1C97A2BF460DD00462459 /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 45D1C9792BF460DD00462459 /* MapboxNavigation */; };
 		45D6B1222BF429BF0052D400 /* MapLibreNavigationExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D6B1212BF429BF0052D400 /* MapLibreNavigationExampleAppApp.swift */; };
 		45D6B1242BF429BF0052D400 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D6B1232BF429BF0052D400 /* ContentView.swift */; };
 		45D6B1262BF429C00052D400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D6B1252BF429C00052D400 /* Assets.xcassets */; };
@@ -18,6 +28,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		45D1C95E2BF45DB500462459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D6B1162BF429BF0052D400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45D1C9472BF45DB300462459;
+			remoteInfo = MapLibreNavigationExampleUIKitApp;
+		};
+		45D1C9682BF45DB500462459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D6B1162BF429BF0052D400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45D1C9472BF45DB300462459;
+			remoteInfo = MapLibreNavigationExampleUIKitApp;
+		};
 		45D6B12F2BF429C10052D400 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 45D6B1162BF429BF0052D400 /* Project object */;
@@ -35,6 +59,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45D1C9432BF4548300462459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		45D1C9482BF45DB300462459 /* MapLibreNavigationExampleUIKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapLibreNavigationExampleUIKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D1C94A2BF45DB300462459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45D1C94C2BF45DB300462459 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45D1C94E2BF45DB300462459 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45D1C9512BF45DB300462459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45D1C9532BF45DB500462459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45D1C9562BF45DB500462459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45D1C9582BF45DB500462459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D1C95D2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapLibreNavigationExampleUIKitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D1C9612BF45DB500462459 /* MapLibreNavigationExampleUIKitAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLibreNavigationExampleUIKitAppTests.swift; sourceTree = "<group>"; };
+		45D1C9672BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapLibreNavigationExampleUIKitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D1C96B2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLibreNavigationExampleUIKitAppUITests.swift; sourceTree = "<group>"; };
+		45D1C96D2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLibreNavigationExampleUIKitAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		45D6B11E2BF429BF0052D400 /* MapLibreNavigationExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapLibreNavigationExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D6B1212BF429BF0052D400 /* MapLibreNavigationExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLibreNavigationExampleAppApp.swift; sourceTree = "<group>"; };
 		45D6B1232BF429BF0052D400 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +86,28 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		45D1C9452BF45DB300462459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D1C97A2BF460DD00462459 /* MapboxNavigation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D1C95A2BF45DB500462459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D1C9642BF45DB500462459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45D6B11B2BF429BF0052D400 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,13 +133,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45D1C9492BF45DB300462459 /* MapLibreNavigationExampleUIKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				45D1C94A2BF45DB300462459 /* AppDelegate.swift */,
+				45D1C94C2BF45DB300462459 /* SceneDelegate.swift */,
+				45D1C94E2BF45DB300462459 /* ViewController.swift */,
+				45D1C9502BF45DB300462459 /* Main.storyboard */,
+				45D1C9532BF45DB500462459 /* Assets.xcassets */,
+				45D1C9552BF45DB500462459 /* LaunchScreen.storyboard */,
+				45D1C9582BF45DB500462459 /* Info.plist */,
+			);
+			path = MapLibreNavigationExampleUIKitApp;
+			sourceTree = "<group>";
+		};
+		45D1C9602BF45DB500462459 /* MapLibreNavigationExampleUIKitAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				45D1C9612BF45DB500462459 /* MapLibreNavigationExampleUIKitAppTests.swift */,
+			);
+			path = MapLibreNavigationExampleUIKitAppTests;
+			sourceTree = "<group>";
+		};
+		45D1C96A2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45D1C96B2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITests.swift */,
+				45D1C96D2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITestsLaunchTests.swift */,
+			);
+			path = MapLibreNavigationExampleUIKitAppUITests;
+			sourceTree = "<group>";
+		};
+		45D1C9782BF460DD00462459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		45D6B1152BF429BF0052D400 = {
 			isa = PBXGroup;
 			children = (
 				45D6B1202BF429BF0052D400 /* MapLibreNavigationExampleApp */,
 				45D6B1312BF429C10052D400 /* MapLibreNavigationExampleAppTests */,
 				45D6B13B2BF429C10052D400 /* MapLibreNavigationExampleAppUITests */,
+				45D1C9492BF45DB300462459 /* MapLibreNavigationExampleUIKitApp */,
+				45D1C9602BF45DB500462459 /* MapLibreNavigationExampleUIKitAppTests */,
+				45D1C96A2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITests */,
 				45D6B11F2BF429BF0052D400 /* Products */,
+				45D1C9782BF460DD00462459 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +191,9 @@
 				45D6B11E2BF429BF0052D400 /* MapLibreNavigationExampleApp.app */,
 				45D6B12E2BF429C10052D400 /* MapLibreNavigationExampleAppTests.xctest */,
 				45D6B1382BF429C10052D400 /* MapLibreNavigationExampleAppUITests.xctest */,
+				45D1C9482BF45DB300462459 /* MapLibreNavigationExampleUIKitApp.app */,
+				45D1C95D2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppTests.xctest */,
+				45D1C9672BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +201,7 @@
 		45D6B1202BF429BF0052D400 /* MapLibreNavigationExampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				45D1C9432BF4548300462459 /* Info.plist */,
 				45D6B1212BF429BF0052D400 /* MapLibreNavigationExampleAppApp.swift */,
 				45D6B1232BF429BF0052D400 /* ContentView.swift */,
 				45D6B1252BF429C00052D400 /* Assets.xcassets */,
@@ -132,6 +238,62 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		45D1C9472BF45DB300462459 /* MapLibreNavigationExampleUIKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D1C9752BF45DB500462459 /* Build configuration list for PBXNativeTarget "MapLibreNavigationExampleUIKitApp" */;
+			buildPhases = (
+				45D1C9442BF45DB300462459 /* Sources */,
+				45D1C9452BF45DB300462459 /* Frameworks */,
+				45D1C9462BF45DB300462459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapLibreNavigationExampleUIKitApp;
+			packageProductDependencies = (
+				45D1C9792BF460DD00462459 /* MapboxNavigation */,
+			);
+			productName = MapLibreNavigationExampleUIKitApp;
+			productReference = 45D1C9482BF45DB300462459 /* MapLibreNavigationExampleUIKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45D1C95C2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D1C9762BF45DB500462459 /* Build configuration list for PBXNativeTarget "MapLibreNavigationExampleUIKitAppTests" */;
+			buildPhases = (
+				45D1C9592BF45DB500462459 /* Sources */,
+				45D1C95A2BF45DB500462459 /* Frameworks */,
+				45D1C95B2BF45DB500462459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45D1C95F2BF45DB500462459 /* PBXTargetDependency */,
+			);
+			name = MapLibreNavigationExampleUIKitAppTests;
+			productName = MapLibreNavigationExampleUIKitAppTests;
+			productReference = 45D1C95D2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45D1C9662BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D1C9772BF45DB500462459 /* Build configuration list for PBXNativeTarget "MapLibreNavigationExampleUIKitAppUITests" */;
+			buildPhases = (
+				45D1C9632BF45DB500462459 /* Sources */,
+				45D1C9642BF45DB500462459 /* Frameworks */,
+				45D1C9652BF45DB500462459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45D1C9692BF45DB500462459 /* PBXTargetDependency */,
+			);
+			name = MapLibreNavigationExampleUIKitAppUITests;
+			productName = MapLibreNavigationExampleUIKitAppUITests;
+			productReference = 45D1C9672BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		45D6B11D2BF429BF0052D400 /* MapLibreNavigationExampleApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45D6B1422BF429C10052D400 /* Build configuration list for PBXNativeTarget "MapLibreNavigationExampleApp" */;
@@ -198,6 +360,17 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					45D1C9472BF45DB300462459 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					45D1C95C2BF45DB500462459 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 45D1C9472BF45DB300462459;
+					};
+					45D1C9662BF45DB500462459 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 45D1C9472BF45DB300462459;
+					};
 					45D6B11D2BF429BF0052D400 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -230,11 +403,38 @@
 				45D6B11D2BF429BF0052D400 /* MapLibreNavigationExampleApp */,
 				45D6B12D2BF429C10052D400 /* MapLibreNavigationExampleAppTests */,
 				45D6B1372BF429C10052D400 /* MapLibreNavigationExampleAppUITests */,
+				45D1C9472BF45DB300462459 /* MapLibreNavigationExampleUIKitApp */,
+				45D1C95C2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppTests */,
+				45D1C9662BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		45D1C9462BF45DB300462459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D1C9542BF45DB500462459 /* Assets.xcassets in Resources */,
+				45D1C9572BF45DB500462459 /* Base in Resources */,
+				45D1C9522BF45DB300462459 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D1C95B2BF45DB500462459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D1C9652BF45DB500462459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45D6B11C2BF429BF0052D400 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,6 +461,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		45D1C9442BF45DB300462459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D1C94F2BF45DB300462459 /* ViewController.swift in Sources */,
+				45D1C94B2BF45DB300462459 /* AppDelegate.swift in Sources */,
+				45D1C94D2BF45DB300462459 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D1C9592BF45DB500462459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D1C9622BF45DB500462459 /* MapLibreNavigationExampleUIKitAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D1C9632BF45DB500462459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D1C96E2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITestsLaunchTests.swift in Sources */,
+				45D1C96C2BF45DB500462459 /* MapLibreNavigationExampleUIKitAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45D6B11A2BF429BF0052D400 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,6 +517,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		45D1C95F2BF45DB500462459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45D1C9472BF45DB300462459 /* MapLibreNavigationExampleUIKitApp */;
+			targetProxy = 45D1C95E2BF45DB500462459 /* PBXContainerItemProxy */;
+		};
+		45D1C9692BF45DB500462459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45D1C9472BF45DB300462459 /* MapLibreNavigationExampleUIKitApp */;
+			targetProxy = 45D1C9682BF45DB500462459 /* PBXContainerItemProxy */;
+		};
 		45D6B1302BF429C10052D400 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 45D6B11D2BF429BF0052D400 /* MapLibreNavigationExampleApp */;
@@ -302,7 +539,154 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		45D1C9502BF45DB300462459 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D1C9512BF45DB300462459 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45D1C9552BF45DB500462459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D1C9562BF45DB500462459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		45D1C96F2BF45DB500462459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapLibreNavigationExampleUIKitApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to show your position on the map.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = earth.maps.MapLibreNavigationExampleUIKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45D1C9702BF45DB500462459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapLibreNavigationExampleUIKitApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to show your position on the map.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = earth.maps.MapLibreNavigationExampleUIKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45D1C9712BF45DB500462459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = earth.maps.MapLibreNavigationExampleUIKitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapLibreNavigationExampleUIKitApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapLibreNavigationExampleUIKitApp";
+			};
+			name = Debug;
+		};
+		45D1C9722BF45DB500462459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = earth.maps.MapLibreNavigationExampleUIKitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapLibreNavigationExampleUIKitApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapLibreNavigationExampleUIKitApp";
+			};
+			name = Release;
+		};
+		45D1C9732BF45DB500462459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = earth.maps.MapLibreNavigationExampleUIKitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapLibreNavigationExampleUIKitApp;
+			};
+			name = Debug;
+		};
+		45D1C9742BF45DB500462459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = earth.maps.MapLibreNavigationExampleUIKitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapLibreNavigationExampleUIKitApp;
+			};
+			name = Release;
+		};
 		45D6B1402BF429C10052D400 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -432,6 +816,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MapLibreNavigationExampleApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapLibreNavigationExampleApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is needed to show your position on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -460,6 +846,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MapLibreNavigationExampleApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapLibreNavigationExampleApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is needed to show your position on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -553,6 +941,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		45D1C9752BF45DB500462459 /* Build configuration list for PBXNativeTarget "MapLibreNavigationExampleUIKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D1C96F2BF45DB500462459 /* Debug */,
+				45D1C9702BF45DB500462459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45D1C9762BF45DB500462459 /* Build configuration list for PBXNativeTarget "MapLibreNavigationExampleUIKitAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D1C9712BF45DB500462459 /* Debug */,
+				45D1C9722BF45DB500462459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45D1C9772BF45DB500462459 /* Build configuration list for PBXNativeTarget "MapLibreNavigationExampleUIKitAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D1C9732BF45DB500462459 /* Debug */,
+				45D1C9742BF45DB500462459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		45D6B1192BF429BF0052D400 /* Build configuration list for PBXProject "MapLibreNavigationExampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -603,6 +1018,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		45D1C9792BF460DD00462459 /* MapboxNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45D6B14B2BF429F20052D400 /* XCRemoteSwiftPackageReference "maplibre-navigation-ios" */;
+			productName = MapboxNavigation;
+		};
 		45D6B14C2BF429F20052D400 /* MapboxNavigation */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 45D6B14B2BF429F20052D400 /* XCRemoteSwiftPackageReference "maplibre-navigation-ios" */;
